@@ -1,0 +1,61 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.forntNav{
+    font-size: 12px;
+    cursor: pointer;
+    color: #05014a;
+}
+
+.effect-button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+  .slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+$colors: (
+  fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #ffa260, 
+  up: #e4cb58, 
+  slide: #8fc866, 
+  offset: #19bc8b
+);
+
+.buttonSearch{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 80px;
+  width: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+//header-highlight set to center
+.header-highlight{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  transform: 'translate(-50%, -50%)',
+}
+
+.position-highligh{
+  display: flex;
+  transform: 'translate(-50%, -50%)',
+}
+
